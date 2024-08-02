@@ -1,0 +1,431 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+*{
+    box-sizing: border-box;
+}
+.header-top{
+           width: 100%;
+}
+.container{
+          width: 1100px;
+          margin-left:auto;
+          margin-right: auto;
+}
+.clear-float{
+    clear: both;
+}
+.logo{
+    float: left;
+    padding: 7px;
+}
+.logo img{
+    width: 150px;
+}
+.main-menu{
+}
+.main-menu ul li{
+    display: inline-block;
+    padding: 7px;
+    float: right;
+    justify-content: space-around;
+}
+.main-menu ul li a{
+        text-decoration: none;
+        color: darkcyan;
+        font-size: 15px;
+}
+.call-left{
+    float: left;
+    width: 60%;
+}
+.main-menu ul li a:hover{
+       color: wheat;
+       background-color: black;
+}
+.heading aside{
+         color: tomato;
+         font-size: 50px;
+         font-weight: 50px;
+         display: inline-block;
+}
+.call-right{
+    float: right;
+    width: 40%;
+}
+.heading{
+    font-size:35px;
+    font-weight: 35px;
+}
+.para{
+    display: inline-block;
+}
+.para ::first-line{
+    color: darkgray;
+}
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.search-bar{
+    border-radius: 30px;
+    box-shadow: 2 5 10 red;
+}
+.search-bar select{
+    border: 0px;
+}
+.search-bar input{
+    border: 0px;
+}
+.search-bar input:focus{
+    border: 3px solid red;
+}
+.form h1{
+    color: white;
+    text-align: center;
+}
+.form input{
+    width: 89%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3%;
+}
+.form button{
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3%;
+    background-color: orange;   
+}
+.header h1{
+       font-size: 32px;
+       font-weight: bolder;
+       text-align: center;
+}
+.header p{
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    width: 15%;
+    border-radius: 7px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.card img{
+    width: 34%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.card p{
+    padding: 4px;
+    text-align: center;
+}
+.head h1{
+     text-align: center;
+     font-size: 32px;
+     font-weight: bolder;
+}
+.head p{
+    text-align: center;
+}
+.card-1{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/kk.jpg);
+    margin: 5px;
+}
+.card-1 h1{
+    color: white;
+    text-align: center;
+}
+.card-1 p{
+    color: white;
+    text-align: justify;
+}
+.card-1 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-2{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/zz.jpg);
+    margin: 5px;
+}
+.card-2 h1{
+    color: white;
+    text-align: center;
+}
+.card-2 p{
+    color: white;
+    text-align: justify;
+}
+.card-2 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-3{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/d.jpg);
+    margin: 5px;
+}
+.card-3 h1{
+    color: white;
+    text-align: center;
+}
+.card-3 p{
+    text-align: justify;
+    color: white;
+}
+.card-3 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-4{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/jj.jpg);
+    margin: 5px;
+}
+.card-4 h1{
+    color: white;
+    text-align: center;
+}
+.card-4 p{
+    color: white;
+    text-align: justify;
+}
+.card-4 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-5{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/k.jpg);
+    margin: 5px;
+}
+.card-5 h1{
+    color: white;
+    text-align: center;
+}
+.card-5 p{
+    color: white;
+    text-align: justify;
+}
+.card-5 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-6{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/b.jpg);
+    margin: 5px;
+}
+.card-6 h1{
+    color: white;
+    text-align: center;
+}
+.card-6 p{
+    color: white;
+    text-align: justify;
+}
+.card-6 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-7{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/v.jpg);
+    margin: 5px;
+}
+.card-7 h1{
+    color: white;
+    text-align: center;
+}
+.card-7 p{
+    color: white;
+    text-align: justify;
+}
+.card-7 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-8{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/ll.jpg);
+    margin: 5px;
+}
+.card-8 h1{
+    color: white;
+    text-align: center;
+}
+.card-8 p{
+    color: white;
+    text-align: justify;
+}
+.card-8 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-9{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/m.jpg);
+    margin: 5px;
+}
+.card-9 h1{
+    color: white;
+    text-align: center;
+}
+.card-9 p{
+    color: white;
+    text-align: justify;
+}
+.card-9 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-10{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/q.jpg);
+    margin: 5px;
+}
+.card-10 h1{
+    color: white;
+    text-align: center;
+}
+.card-10 p{
+    color: white;
+    text-align: justify;
+}
+.card-10 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-11{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/e.jpg);
+    margin: 5px;
+}
+.card-11 h1{
+    color: white;
+    text-align: center;
+}
+.card-11 p{
+    color: white;
+    text-align: justify;
+}
+.card-11 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.card-12{
+    border: 2px solid black;
+    width: 22%;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url(images/l.jpg);
+    margin: 5px;
+}
+.card-12 h1{
+    color: white;
+    text-align: center;
+}
+.card-12 p{
+    color: white;
+    text-align: justify;
+}
+.card-12 button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.card-img-box{
+    border: 2px solid black;
+    width: 22%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+}
+.card-img-box h1{
+    font-size: 30px;
+}
+.card-img-box p{
+    display: none;
+}
+.card-img-box button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px
+}
+.card-img-box:hover h1{
+    font-size: 20px;
+}
+.card-img-box:hover p{
+    display: block;
+}
